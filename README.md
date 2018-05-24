@@ -13,6 +13,6 @@ ImportCDNJS(link: string, libraryName: string):Promise<library>
 ```js
 import ImportCDNJS from 'import-cdn-js';
 
-ImportCDNJS('//cdn.bootcss.com/jquery/3.3.1/core.js', '$')
+ImportCDNJS('//cdn.bootcss.com/jquery/3.3.1/jquery.min.js', '$')
     .then($ => $('body').text("Hello world!"));
 ```
