@@ -1,0 +1,22 @@
+{
+  "name": "import-cdn-js",
+  "version": "0.0.1",
+  "description": "import JavaScript library from CDN links",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel -d lib/ src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MuShan0x0",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mushan0x0/import-cdn-js.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
